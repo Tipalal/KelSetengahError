@@ -1,5 +1,4 @@
 program BuKuKuKatalogBukuDigital;
-
 uses crt;
 
 const
@@ -12,12 +11,13 @@ type
     tahun: integer;
     penerbit: string;
   end;
-
+//deklarasi variabel
 var
   katalog: array[1..MaxBuku] of Buku;
   jumlahBuku: integer;
   pilihan: integer;
 
+//Prosedur TampilkanKatalog digunakan untuk menampilkan semua buku yang ada dalam katalog
 procedure TampilkanKatalog;
 var
     i: integer;
@@ -41,6 +41,7 @@ begin
         end;
 end;
 
+//Prosedur TambahBuku digunakan untuk menambahkan buku baru ke dalam katalog.
 procedure TambahBuku;
 begin
     if jumlahBuku < MaxBuku then
