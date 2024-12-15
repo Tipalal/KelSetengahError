@@ -28,9 +28,9 @@ begin
         begin
             writeln('Belum ada buku didalam katalog ini');
         end
-        else
-        begin
-            for i := 1 to jumlahBuku do
+          else
+            begin
+              for i := 1 to jumlahBuku do
                 begin
                     writeln('Buku ke-', i);
                     writeln('Judul: ', katalog[i].judul);
@@ -39,7 +39,7 @@ begin
                     writeln('Penerbit: ', katalog[i].penerbit);
                     writeln;
                 end;
-        end;
+            end;
 end;
 
 //Prosedur TambahBuku digunakan untuk menambahkan buku baru ke dalam katalog.
@@ -60,10 +60,10 @@ begin
         jumlahBuku := jumlahBuku + 1;
         writeln('Buku berhasil ditambahkan ke katalog.');
     end
-    else
-    begin
-        writeln('Katalog buku sudah penuh!');
-    end;
+      else
+        begin
+          writeln('Katalog buku sudah penuh!');
+        end;
 end;
 
 begin
