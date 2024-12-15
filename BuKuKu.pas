@@ -11,7 +11,8 @@ type
     tahun: integer;
     penerbit: string;
   end;
-//deklarasi variabel
+  
+  //deklarasi variabel
 var
   katalog: array[1..MaxBuku] of Buku;
   jumlahBuku: integer;
