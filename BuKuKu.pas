@@ -26,7 +26,7 @@ begin
     writeln('Daftar Buku dalam Katalog:');
     if jumlahBuku = 0 then
         begin
-            writeln('Belum ada buku didalam katalog ini');
+            writeln('Belum ada buku didalam katalog ini!');
         end
           else
             begin
@@ -86,7 +86,7 @@ begin
             writeln('Pilihan tidak valid');
         end;
         writeln;
-        writeln('Tekan enter untuk melanjutkan...');
+        writeln('Tekan enter untuk melanjutkan.....');
         readln;
         
     until pilihan = 3;
